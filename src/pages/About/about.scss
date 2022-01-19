@@ -1,0 +1,213 @@
+///////////////////////   COLORS STYLE  /////////////////////
+$color-black: #242B34;
+$color-blue:  #00a1df;
+$color-dark-blue: #005492;
+$color-red: #e3173e;
+$color-gray: #EDEDED;
+
+
+//***************************   MAIN STYLE *********************************//
+
+
+
+
+.About{
+
+ background-color: #ECF7FC;
+
+.AboutMain{
+        .AboutTitle{
+                    padding: 50px 30px;
+                    width: 100%;
+                    
+                    .min-all{
+                        width: 100%;
+                        height: 410px;
+                        overflow: hidden;
+                    .content{
+                        width: 100%;
+                        background-color: #fff;
+                        position: relative;
+                        
+                        
+                        .left{
+                            width: 50%;
+                            box-sizing: border-box;
+                            .page-titile{
+                                display: flex;
+                                margin: 0;
+                                padding: 0 31px;
+                                padding-top: 70px;
+                                padding-bottom: 30px;
+                                letter-spacing: -.04em;
+                                font-size: 60px;
+                                font-weight: 600;
+                                color : $color-black;
+                                font-family: "roboto", sans-serif;
+                            }
+
+                            .red-bar{
+                                width: 100px;
+                                height: 3px;
+                                background-color:  $color-red;
+
+                            }
+
+                            .title-text{
+                                padding-left: calc(10px + 60 * ((100vw - 1290px)/210));
+                                padding-right: calc(10px + 60 * ((100vw - 1290px)/210));
+                                padding-top: 25px;
+                                padding-bottom: 60px;
+                                font-size: calc(18px + 7 * ((100vw - 767px)/733));
+                                line-height: calc(25px + 10 * ((100vw - 767px)/733));
+                                font-family: "roboto" , sans-serif;
+                                font-weight: 300 !important;
+                                color: $color-black ;
+                                margin: 0;
+
+                            }
+
+
+                        }
+                        .right-image-wrapper{
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            left: 0;
+                            
+                        .top-left-big{
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 95px;
+                            height: 95px;
+                            overflow: hidden; 
+                                .top-left-grey-hoop{
+                                    width: 175px;
+                                    height: 175px;
+                                    -webkit-border-radius: 87.5px;
+                                    border-radius: 50%;
+                                    background-clip: padding-box;
+                                    top: -95px;
+                                    left: -95px;
+                                    -webkit-border-radius: 154.5px;
+                                    border-radius: 154.5px;
+                                    background-clip: padding-box;
+                                    position: absolute;
+                                    border: 2px dashed #a7a8aa;
+                                    filter: alpha(opacity=60);
+                                    filter: alpha(opacity=60);
+                                    opacity: .6;
+                                }
+                        }
+                            .blue-circle{
+                                width: 556px;
+                                height: 556px;
+                                -webkit-border-radius: 278px;
+                                border-radius: 278px;
+                                background-clip: padding-box;
+                                left: auto;
+                                top: -160px;
+                                right: -195px;
+                                background-color: #00a1df;
+                                position: absolute;
+                            }
+                            .grey-hoop{
+                                position: absolute;
+                                width: 556px;
+                                height: 556px;
+                                -webkit-border-radius: 278px;
+                                border-radius: 278px;
+                                background-clip: padding-box;
+                                top: -148px;
+                                left: auto;
+                                right: -175px;
+                                z-index: 3;
+                                border: 2px dashed #a7a8aa;
+                                filter: alpha(opacity=60);
+                                filter: alpha(opacity=60);
+                                opacity: .6;
+                            }
+                            .red-hoop{
+                                width: 515px;
+                                height: 515px;
+                                position: absolute;
+                                -webkit-border-radius: 257.5px;
+                                border-radius: 257.5px;
+                                background-clip: padding-box;
+                                top: -140px;
+                                left: auto;
+                                right: -173px;
+                                z-index: 5;
+                                border: 2px dashed $color-red;
+                                opacity: .6;   
+                            }
+                            .image-titile{
+                                
+                                margin-top: 40px;
+                                width: 350px;
+                                height: 359px;
+                                position: absolute;
+                                top: -3px;
+                                right: 0;
+                                overflow: hidden;
+                            
+                                .image-titile2{
+                                    
+                                    width: 557px;
+                                    height: 556px;
+                                    position: absolute;
+                                    top: -199px;
+                                    right: -211px;
+                                    border-radius: 50%;
+                                    border-bottom-left-radius: 50%;
+                                    transform: rotate(0deg);
+                                    overflow: hidden;
+                    
+                    
+
+
+
+                                        .in-img{
+                                            width: 560px;
+                                            height: 460px;  
+                                            position: absolute;
+                                            right: 206px;
+                                            top: 200px;
+                                            z-index: 4;
+                                            overflow: hidden;
+                                    }
+                                }
+                            }
+
+                        }
+
+
+                        
+                    }
+                    }
+                    
+        }
+
+        .ImageServices{
+            width: 100%;
+            height: 365px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+           
+        
+            img{
+                width: 100%;
+                height: auto;
+                transform: rotateY(30deg);
+            }
+        }
+        .about-col-6{
+            padding: 40px 0;
+        }
+
+        }
+}

@@ -1,0 +1,89 @@
+
+
+
+
+.OurCard{
+    display:100%;
+    height: auto;
+    padding: 0 15px;
+    transition: all 0.5s ease;
+    margin: 40px 0;
+     .card-all{
+         border: none;
+        border-radius: 10px;
+        background: linear-gradient(138.88deg, rgba(254, 254, 254, 0) -2.44%, #F9F9F9 -2.43%, rgba(254, 254, 254, 0.51) 98.26%);
+        // filter: drop-shadow(0px 4px 120px rgba(0, 0, 0, 0.05));
+        overflow: hidden;
+        transition: all 1s linear;
+        
+        
+
+
+        .our-card-body{
+            text-align: center;
+            padding: 15px 40px;
+    
+            .our-image{
+                width: 70px;
+                padding: 30px 0 10px 0;
+                margin-left: auto;
+                margin-right: auto;
+                img{
+                    width: 100%;
+                }
+            }
+            .our-title{
+                font-size: 22px;
+                line-height: 30px;
+                font-weight: bold;
+                font-family: "Poppins-Bold" , sans-serif;
+                padding: 10px 0 0 0;
+                color: var(--color-black);
+    
+                h3{
+                    margin: 0;
+                }
+                
+            }
+            .our-information{
+    
+                font-family: "Poppins-Regular" , sans-serif;
+                font-size: 15px;
+                line-height: 20px;
+                color: var(--color-grey-text);
+                padding: 25px 0 0  0;
+    
+                p{
+                    margin: 0;
+                }
+            }
+        }
+        .our-card-footer{
+            padding: 0;
+
+            background-color: transparent;
+            border-top-color: transparent;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            transition: all 1s linear;
+            
+            .our-card-footer-in{
+                
+                width: 0%;
+                height: 100%;
+                padding: 10px 0;
+                background-color: #A0D1FC;
+
+
+            }
+        }
+
+       
+     }
+
+     &:hover{
+        transform: scale(1.06)
+    }
+
+}

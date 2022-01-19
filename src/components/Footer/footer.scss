@@ -1,0 +1,50 @@
+
+
+.Footer{
+    width: 100%;
+    padding-top: 60px;
+
+    .footer-row{
+        align-items: start;
+    }
+
+
+    .logo-footer{
+        width: 100%;
+    }
+    .nav-icon{
+        width: 40px;
+        height: 40px;
+        background-color: #646464;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.2s linear;
+        .footer-icon{
+            width: 50%;
+            fill:#fff;
+
+            
+        }
+
+        &:hover{
+            transform: scale(1.4);
+        }
+    }
+    
+    .nav-link{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        color: var(--color-grey-text);
+        font-family: "Poppins-regular " ,sans-serif;
+    }
+    .footer-title{
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 20px;
+        color: var(--color-black);
+        font-family: "Poppins-Bold " ,sans-serif;
+    }
+}

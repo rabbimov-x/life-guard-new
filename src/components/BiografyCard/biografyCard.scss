@@ -1,0 +1,86 @@
+
+
+.BiografyCard{
+    width: 100%;
+    .boi-card{
+        border-radius: 10px;
+        transition: all 0.5s ease;
+        .boi-card-body{
+            padding: 10px 12px;
+            text-align: center;
+            .boi-image{
+                width: 100%;
+                height: 180px;
+                border-radius: 10px;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    fill: #000 !important;
+                    width: 100%;
+                    height: auto;
+                }
+                
+                
+            }
+
+            .boi-name{
+                font-size: 19px;
+                font-family: "Poppins-Regular" , sans-serif;
+                font-weight: bold;
+                line-height: 22px;
+                padding-top: 10px;
+                color: var(--color-black);
+
+            }
+            .bio-specialization{
+                
+                font-size: 16px;
+                font-family: "Poppins-Medium" , sans-serif;
+                line-height: 23px;
+                color: var(--color-dark-grey);
+            }
+            .bio-applications{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .applications-img{
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 50%;
+                    margin: 0 10px;
+                    cursor: pointer;
+                    background-color: var(--color-blue);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img{
+                        width: 20px;
+                        height: 20px;
+                    }
+
+                }
+                .bio-fb{
+                    background-color: #4D77CF;
+                }
+                .bio-tw{
+                    background-color: #1DA1F2;
+                }
+                .bio-vk{
+                    background-color: #0077B5;
+                }
+            }
+            
+
+        }
+
+        &:hover{
+            transform: scale(1.06)
+        }
+    }
+
+}

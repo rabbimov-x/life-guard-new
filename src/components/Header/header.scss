@@ -1,0 +1,251 @@
+
+
+
+
+
+.header{
+    width: 100%;
+    font-family: "Poppins" , sans-serif;
+    background-color: #ECF7FC;
+    padding-top: 20px;
+    overflow: hidden;
+    .container{
+
+        .left-header{
+            padding-top: 150px;
+            
+            .black-text{
+                color: var(--color-black);
+                font-size: 45px;
+                font-weight: bold;
+                line-height: 45px;
+                margin: 0;
+                font-family: "Poppins" , sans-serif;
+                padding: 80px 0 10px 0;
+            }
+
+            .blue-text{
+                color: var(--color-blue);
+                font-size: 45px;
+                line-height: 45px;
+                font-weight: bold;
+                margin: 0;
+                font-family: "Poppins" , sans-serif;
+                padding: 10px 0 0px 0;
+            }
+
+            .grey-text{
+                color: var(--color-grey);
+                font-size : 16px;
+                line-height: 25px;
+                margin: 0;
+                padding:50px 0;
+                font-family: "Poppins" , sans-serif;
+            }
+
+            .input-container{
+                width: 100%;
+                padding: 15px;
+                border-radius: 13px;
+                background-color: var(--color-white );
+                justify-content: space-between;
+                align-items: center;
+                
+                .input-dotor{
+                    display: flex  !important;
+                    width: 30%;
+                    height: 59px;
+                    border: none;
+                    background-color: #FAFAFC;
+                    padding: 15px 15px;
+                    font-size: 16px;
+                }
+
+                .select-region{
+                      
+                    .sellect-region-in{
+                        border: none;
+                        height: 59px;
+                        
+                        background-color: #FAFAFC;
+
+                    }
+                }
+
+                .btn-search{
+                    background-color: var(--color-blue);
+                    padding: 16px 22px;
+                    border-radius: 8px;
+                }
+                
+            }
+
+
+        }
+
+        .right-header{
+            display: flex;
+            justify-content: center;
+
+           .right-raund{
+
+              .light-blue{
+                    width: 600px;
+                    height: 600px;
+                    border-radius: 50%;
+                    background-color: #DEEBF5;
+                    margin-left: 160px;
+    
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+ 
+                  
+                 .little-blue{
+                    width: 450px;
+                    height: 450px;
+                    border-radius: 50%;
+                    background-color: #CDE2EE;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    .imge{
+                        width: 50px;
+                        height: 50px;
+                    }
+                    
+                    .phone{
+                        width: 70px;
+                        height: 70px;
+                        display: flex;
+                        top: 90px;
+                        left: 90px;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: var(--color-white);
+                        position: absolute;
+                        border-radius: 50%;
+                        box-sizing: border-box;
+
+
+                    }
+                    .dotor-round{
+                        position: absolute;
+                        margin-top: 81px;
+                        margin-right: 114px;
+                        .image-round{
+                            width: 800px;
+                        }
+                    }
+                    .video{
+                        width: 70px;
+                        height:70px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: var(--color-white);
+                        position: absolute;
+                        top: 90px;
+                        right: -56px;
+                        z-index: 1;
+                        border-radius: 50%;
+                    }
+                    .massege{
+                        width: 70px;
+                        height: 70px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: var(--color-white);
+                        position: absolute;
+                        top:350px;
+                        left: 60px;
+                        border-radius: 50%;
+                    }
+                    .starts-potents{
+                        background-color: var(--color-white);
+                        position: absolute;
+
+                    }
+                    .happy-potents{
+                        width: 140px;
+                        height: 85px;
+                        background-color: var(--color-white);
+                        position: absolute;
+                        bottom: 100px;
+                        right: -58px;
+                        text-align: center;
+                        
+                        border-radius: 9px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+                       
+
+                        .number-happy{
+                            font-size: 24px;    
+                            font-weight: bold;
+                            font-family: "Poppins-bold" , sans-serif;
+
+                        }
+
+                    }
+
+                    .white-round{
+                        width: 75%;
+                        height: 75%;
+                        border: 2px solid white;
+                        border-radius: 50%;
+                        position: relative;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        
+                        
+
+
+
+                        &::after{
+                            content: "";
+                            width: 15px;
+                            height: 15px;
+                            position: absolute;
+                            top: 48.5%;
+                            left: -4px;
+                            border-radius: 50%;
+                            margin-left: -5px;
+                            background-color: white;
+                        }
+                        &::before{
+                            content: "";
+                            position: absolute;
+                            top: 48.5%;
+                            right: -8px;
+                            width: 15px;
+                            height: 15px;
+                            border-radius: 50%;
+                            margin-left: -5px;
+                            background-color: #fff;
+                        }
+
+                        
+
+                        
+                    }
+                    
+                    
+                 } 
+              }
+              
+              &:hover{
+
+                .white-round{
+                    transition: all 5s linear;
+                    transform: rotate(720deg);
+                }
+              }
+           } 
+            
+
+        }
+    }
+
+}

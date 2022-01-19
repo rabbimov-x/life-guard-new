@@ -1,0 +1,51 @@
+
+
+
+
+.StepsCard{
+    width: 100%;
+    transition: all 0.5s ease;  
+    .card{
+        border: none;
+        .card-body{
+
+            text-align: center;
+            
+
+            .image{
+               width:  80px;
+               height: 80px;
+               border-radius: 50%;
+               background-color: #DDEAF3;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               margin-left: auto;
+               margin-right: auto;
+               img{
+                   width: 40px;
+                   height: 40px;    
+               }
+            }
+
+            .logoName{
+                font-size: 24px;
+                font-family: "Poppins-Bold" , sans-serif;
+                color: var(--color-black);
+                font-weight: bolder;
+                margin: 0;
+                padding: 0px 0  5px 0;
+            }
+            .izoh{
+                font-size: 14px;
+                font-family: "Poppins-Regullr" , sans-serif;
+                color: #7F7F7F;
+                font-weight: 400;
+            }
+        }
+    }
+
+    &:hover{
+        transform: scale(1.06)
+    }
+}
