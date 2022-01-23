@@ -1,5 +1,4 @@
 import React from "react"; 
-
 import "./footer.scss"
 
 const Footer =()=>{
@@ -9,21 +8,24 @@ const Footer =()=>{
                 <div className = "row footer-row">
                     <div className = "col-3">
                         <ul className = " nav flex-column">
-                            <li className = "nav-item w-100"><img src = "./assets/images/png/HEALTCARE.png" className = "nav-link logo-footer" /></li>
                             <li className = "nav-item"><span className = "nav-link text-secondary" > USE , Newyourk, 3498 - house</span></li>
+                            <li className = "nav-item"><span className = "nav-link text-secondary" > <img src="./assets/images/png/HEALTCARE.png" className = "nav-link logo-footer" alt="error" /></span></li>
                             <li className = "nav-item"><a className = "nav-link text-secondary" href = "tel:993332529"> Content us: 993332529 </a>  </li>
                             <li className = "nav-item d-flex w-100 justify-content-between aligin-center pt-4">
+                                <div className = " nav-icon"  >
+                                    {/* <img src = "./assets/images/png/Xumoyun.jpg"  alt="error"/> */}
+                                    <img className = "footer-icon " src="./assets/images/svg/facebook-f.svg" ></img>
+                                </div>
+                                <div className = " nav-icon" >
+                                    <img className = "footer-icon " src="./assets/images/svg/instagram.svg" ></img>
+                                </div>
+                                <div className = " nav-icon" >
+                                    <img className = "footer-icon " src="./assets/images/svg/twitter.svg" ></img>
+                                </div>
+                                <div className = " nav-icon" >
+                                    <img className = "footer-icon " src="./assets/images/svg/telegram.svg"  />
+                                </div>
                                 <span className = " nav-icon" >
-                                    <img className = "footer-icon " src="./assets/images/svg/facebook-f.svg"></img>
-                                </span>
-                                <span className = " nav-icon" >
-                                    <img className = "footer-icon " src="./assets/images/svg/instagram.svg"></img>
-                                </span>
-                                <span className = " nav-icon" >
-                                    <img className = "footer-icon " src="./assets/images/svg/twitter.svg"></img>
-                                </span>
-                                <span className = " nav-icon" >
-                                    <img className = "footer-icon " src="./assets/images/svg/telegram.svg"></img>
                                 </span>
                             </li>
                             

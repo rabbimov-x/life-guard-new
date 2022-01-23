@@ -8,14 +8,10 @@ import { doctorsActoin } from "../../redux/action/doctorsAction";
 import "./doctors.scss"
 
 const Doctors  = (props) =>{
-   useEffect(() => {
-       
+   useEffect((props) => {
        props.doctorsActoin();
-       console.log("useffekt shlayabdi")
    }, [])
    setTimeout(() => 1000)
-   console.log(props);
-   console.log("bergin");
     return(
         <div className = "Doctors">
             <Navbar/>

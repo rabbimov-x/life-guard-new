@@ -60,12 +60,12 @@ const About = ()=>{
                     </div>
                     <div className = "col-6  about-col-6"> 
                         <div className = "ImageServices">
-                            <img src ="https://healthcaresuccess.com/wp-content/uploads/halcyon-rehab-website.jpg"></img>
+                            <img src ="https://healthcaresuccess.com/wp-content/uploads/halcyon-rehab-website.jpg" alt="error"></img>
                         </div>
                     </div>
                     <div className = "col-6 "> 
                         <div className = "ImageServices">
-                            <img src ="https://healthcaresuccess.com/wp-content/uploads/stock-photo1.jpg"></img>
+                            <img src ="https://healthcaresuccess.com/wp-content/uploads/stock-photo1.jpg" alt="error"></img>
                         </div>
                     </div>
                     
