@@ -8,7 +8,7 @@ import { doctorsActoin } from "../../redux/action/doctorsAction";
 import "./doctors.scss"
 
 const Doctors  = (props) =>{
-   useEffect((props) => {
+   useEffect(() => {
        props.doctorsActoin();
    }, [])
     return(
