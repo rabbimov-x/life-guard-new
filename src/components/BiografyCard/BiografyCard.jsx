@@ -1,5 +1,4 @@
 import React from "react";
-import { connect } from "react-redux";
 import "./biografyCard.scss"
 
 
@@ -21,14 +20,14 @@ const BiografyCard = (props)=>{
                         <p className = "m-0" >{props.data.username}</p>
                     </div>
                     <div className = "bio-applications d-flex">
-                        <a className = "applications-img bio-fb" >
-                            <img src = "/assets/images/svg/facebook.svg"  alt = "dnjhds"/>
-                        </a>
+                        <div className = "applications-img bio-fb" >
+                            <img src = "/assets/images/svg/facebook.svg"  alt = "Error"/>
+                        </div>
                         <div className = "applications-img bio-tw">
-                            <img src = "/assets/images/svg/twitter.svg" />
+                            <img src = "/assets/images/svg/twitter.svg" alt = "Error" />
                         </div>
                         <div className = "applications-img bio-vk">
-                            <img src = "/assets/images/svg/vkontakte.svg" />
+                            <img src = "/assets/images/svg/vkontakte.svg" alt = "Error" />
                         </div>
                     </div>
                 </div>

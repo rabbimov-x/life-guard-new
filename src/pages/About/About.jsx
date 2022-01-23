@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React     from "react";
 import  Navbar  from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer"
 import ServicesInfo from "../../components/ServicesInfo/ServicesInfo"
@@ -33,7 +33,7 @@ const About = ()=>{
                                         <div class="red-hoop"></div>
                                         <div className = 'image-titile'>
                                         <div className = 'image-titile2'>
-                                                <img  src = "./assets/images/png/services_banner_main.jpg" className = "in-img"  />
+                                                <img  src = "./assets/images/png/services_banner_main.jpg" className = "in-img"  alt="error"  />
                                             </div>
                                         </div>
                                     </div>
@@ -49,7 +49,7 @@ const About = ()=>{
                     <div className = "row">
                     <div className = "col-6 about-col-6 "> 
                         <div className = "ImageServices">
-                            <img src ="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/virus_3d_render_blue_02_other/1800x1200_virus_3d_render_blue_02_other.jpg?resize=*:470px"></img>
+                            <img src ="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/virus_3d_render_blue_02_other/1800x1200_virus_3d_render_blue_02_other.jpg?resize=*:470px"  alt="error"/>
                         </div>
                     </div>
                     <div className = "col-6 about-col-6">

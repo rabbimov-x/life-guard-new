@@ -38,21 +38,21 @@ const Header= ()=>{
                                     
 
                                     <div className = "phone" >
-                                        <img src = "./assets/images/svg/phone-blue.svg" />
+                                        <img src = "./assets/images/svg/phone-blue.svg" alt="error" />
                                     </div>
                                     <div className = "video">
-                                        <img className = "imge"  src = "./assets/images/svg/discussion-video.svg" />
+                                        <img className = "imge"  src = "./assets/images/svg/discussion-video.svg" alt="error" />
                                     </div>
                                     <div className = "massege">
-                                        <img className = "imge" src = "./assets/images/svg/masseges-header.svg" />
+                                        <img className = "imge" src = "./assets/images/svg/masseges-header.svg" alt="error"/>
                                     </div>
                                     <div className = "white-round">
                                     </div>
                                     <div className  ="dotor-round ">
-                                    <img className = "image-round" src = "assets/images/png/doktor-Anna.png" />
+                                    <img className = "image-round" src = "assets/images/png/doktor-Anna.png" alt="error"/>
                                     </div>  
                                     <div className = "happy-potents">
-                                        <img className = "imge" src = "assets/images/svg/heart-like.svg" />
+                                        <img className = "imge" src = "assets/images/svg/heart-like.svg" alt="error"/>
                                         <h4 className  = "number-happy">2600+</h4>
                                         
                                     </div>

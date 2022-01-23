@@ -26,36 +26,36 @@ const Doctors  = (props) =>{
                         <div className = ""></div>
                         <ul className = "nav flex-column aside-nav">
                             <li className = "nav-item ">
-                                <a className = "nav-link">
+                                <span className = "nav-link">
                                     <div className = "letf-aside-icon">
-                                        <img className = "aside-icon-img" src = "./assets/images/svg/human.svg"></img>
+                                        <img className = "aside-icon-img" src = "./assets/images/svg/human.svg"  alt="error"></img>
                                     </div>
-                                </a>
-                                <a className = "nav-link"> Baxodir</a>
+                                </span>
+                                <span className = "nav-link"> Baxodir</span>
                             </li>
                             <li className = "nav-item ">
-                                <a className = "nav-link">
+                                <span className = "nav-link">
                                     <div className = "letf-aside-icon">
-                                        <img className = "aside-icon-img" src = "./assets/images/svg/doctor.svg"></img>
+                                        <img className = "aside-icon-img" src = "./assets/images/svg/doctor.svg"  alt="error"></img>
                                     </div>
-                                </a>
-                                <a className = "nav-link">Your Doctors</a>
+                                </span>
+                                <span className = "nav-link">Your Doctors</span>
                             </li>
                             <li className = "nav-item " >
-                                <a className = "nav-link" > 
+                                <span className = "nav-link" > 
                                     <div className = "letf-aside-icon">
-                                        <img className = "aside-icon-img" src = "./assets/images/svg/vaccination.svg"></img>
+                                        <img className = "aside-icon-img" src = "./assets/images/svg/vaccination.svg"  alt="error"></img>
                                     </div>
-                                </a>
-                                <a className = "nav-link" >Trat</a>
+                                </span>
+                                <span className = "nav-link" >Trat</span>
                             </li>
                             <li className = "nav-item ">
-                                <a className = "nav-link">
+                                <span className = "nav-link">
                                     <div className = "letf-aside-icon">
-                                        <img className = "aside-icon-img" src = "./assets/images/svg/ambulance.svg"></img>
+                                        <img className = "aside-icon-img" src = "./assets/images/svg/ambulance.svg"  alt="error"></img>
                                     </div>
-                                </a>
-                                <a className = "nav-link">Ambulance</a>
+                                </span>
+                                <span className = "nav-link">Ambulance</span>
                             </li>
                             
                         </ul>

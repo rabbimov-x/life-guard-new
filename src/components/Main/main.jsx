@@ -1,8 +1,7 @@
-import React, {Component} from "react";
+import React from "react";
 import StepsCard from "../StepsCard/StepsCard";
 import Slider from "react-slick";
 import OurCard from "../OurCard/OurCard"
-import CenterMode from "../AdminLAyout";
 import BiografyCard from "../BiografyCard/BiografyCard"
 
 import "slick-carousel/slick/slick.css"; 
@@ -50,7 +49,7 @@ console.log(props)
                         <div className ="round-1-experience"></div>
                         <div className = "round-2-experience">
                         <div className = "image-experience">
-                            <img src = "assets/images/png/doktor-Stiv.png" ></img>
+                            <img src = "assets/images/png/doktor-Stiv.png" alt="error" ></img>
                         </div>
                         </div>
                         
@@ -192,7 +191,7 @@ doctors
                 <div className = "row mobile-row">
                     <div className = "col-6 mobile-img-content-left">
                         <div className = "mobile-img">
-                            <img className ="mobile-img-in" src = "../assets/images/png/mobile-phone.png" />
+                            <img className ="mobile-img-in" src = "../assets/images/png/mobile-phone.png"  alt="error" />
                         </div>
                     </div>
                     <div className = "col-6 mobile-content-right">
@@ -207,10 +206,10 @@ doctors
 
                         <div className = "download-app">
                             <button className = "download-app-btn ">
-                                <img className = "download-app-btn-img" src = "../assets/images/svg/GoogleStore.svg" />
+                                <img className = "download-app-btn-img" src = "../assets/images/svg/GoogleStore.svg"  alt="error"/>
                             </button>
                             <button className = "download-app-btn  ">
-                                <img className = "download-app-btn-img" src = "../assets/images/svg/AppStore.svg" />
+                                <img className = "download-app-btn-img" src = "../assets/images/svg/AppStore.svg" alt="error" />
                             </button>
                         </div>
                     </div>

@@ -2,7 +2,6 @@ import React from "react";
  import Header from "../components/Header/header";
 import Main from "../components/Main/main";
 import Footer from "../components/Footer/Footer";
-import CenterMode from "../components/AdminLAyout";
 import { connect } from "react-redux";
 const Home =(props)=>{
     return(

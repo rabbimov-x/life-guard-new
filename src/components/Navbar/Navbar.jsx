@@ -9,10 +9,10 @@ const Navbar = ()=>{
               <div className = "row ">
                 <div className = "col-6 left-nav ">
                   <div>
-                    <img src = "/assets/images/png/HEALTCARE.png" className = "nav-logo" />
+                    <img src = "/assets/images/png/HEALTCARE.png" className = "nav-logo"  alt="error" />
                   </div>
                   <div className="input-navbar">
-                     <input className=" form-control input-nav " placeholder="Search ..." />
+                     <input className=" form-control input-nav " placeholder="Search ..."  alt="error"/>
                      <div className="input-search-img">
                         <img src = "/assets/images/svg/search2.svg" />
                      </div>
