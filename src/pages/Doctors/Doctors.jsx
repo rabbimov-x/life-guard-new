@@ -11,7 +11,6 @@ const Doctors  = (props) =>{
    useEffect((props) => {
        props.doctorsActoin();
    }, [])
-   setTimeout(() => 1000)
     return(
         <div className = "Doctors">
             <Navbar/>

@@ -4,7 +4,7 @@ import "./biografyCard.scss"
 
 const BiografyCard = (props)=>{
     console.log(props.data )
-    console.log("Biografycard")
+    console.log("Biografycard");
     return(
         <div className = "BiografyCard">
             <div className = "card boi-card">
