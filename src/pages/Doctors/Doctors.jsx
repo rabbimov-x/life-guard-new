@@ -10,7 +10,7 @@ import "./doctors.scss"
 const Doctors  = (props) =>{
    useEffect(() => {
        props.doctorsActoin();
-   }, [])
+   }, [props])
     return(
         <div className = "Doctors">
             <Navbar/>

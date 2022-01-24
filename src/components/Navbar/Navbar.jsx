@@ -14,7 +14,7 @@ const Navbar = ()=>{
                   <div className="input-navbar">
                      <input className=" form-control input-nav " placeholder="Search ..."  alt="error"/>
                      <div className="input-search-img">
-                        <img src = "/assets/images/svg/search2.svg" />
+                        <img src = "/assets/images/svg/search2.svg" alt="error" />
                      </div>
                   </div>
                 </div>

@@ -14,16 +14,16 @@ const Footer =()=>{
                             <li className = "nav-item d-flex w-100 justify-content-between aligin-center pt-4">
                                 <div className = " nav-icon"  >
                                     {/* <img src = "./assets/images/png/Xumoyun.jpg"  alt="error"/> */}
-                                    <img className = "footer-icon " src="./assets/images/svg/facebook-f.svg" ></img>
+                                    <img className = "footer-icon " src="./assets/images/svg/facebook-f.svg" alt="error" ></img>
                                 </div>
                                 <div className = " nav-icon" >
-                                    <img className = "footer-icon " src="./assets/images/svg/instagram.svg" ></img>
+                                    <img className = "footer-icon " src="./assets/images/svg/instagram.svg" alt="error" ></img>
                                 </div>
                                 <div className = " nav-icon" >
-                                    <img className = "footer-icon " src="./assets/images/svg/twitter.svg" ></img>
+                                    <img className = "footer-icon " src="./assets/images/svg/twitter.svg"alt="error" ></img>
                                 </div>
                                 <div className = " nav-icon" >
-                                    <img className = "footer-icon " src="./assets/images/svg/telegram.svg"  />
+                                    <img className = "footer-icon " src="./assets/images/svg/telegram.svg"alt="error"  />
                                 </div>
                                 <span className = " nav-icon" >
                                 </span>
