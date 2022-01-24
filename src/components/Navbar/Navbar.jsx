@@ -1,9 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import "./navbar.scss"
 
 
 const Navbar = ()=>{
+   const history = useHistory();
     return(
         <div className = "container">
               <div className = "row ">
@@ -33,7 +34,7 @@ const Navbar = ()=>{
                         <Link to = "/services" className = "nav-link">Sevices</Link>
                      </li> */}
                      <li className = "nav-item" >
-                        <button  to = "/started" className = "btn">Get Started</button>
+                        <button  onClick={()=>{history.goBack();}} className = "btn">Go Back</button>
                      </li>
                    </ul>
                 </div>

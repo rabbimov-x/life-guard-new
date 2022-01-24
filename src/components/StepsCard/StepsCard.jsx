@@ -7,7 +7,7 @@ const StepsCard = (props)=>{
             <div className = "card">
                 <div className = "card-body">
                     <div className = "image">
-                        <img src = {props.vlaue}  alt="error"/>
+                        <img src = {props.img? props.img : "assets/images/svg/heart-like.svg"}  alt="error"/>
                     </div>
                     <div className = "logoName">
                         <p>Find best doctor's</p>
