@@ -14,8 +14,8 @@ const App = ()=>{
       <Route path = "/"  exact component = {Home}  /> 
       {/* <Route path = "/login" exact component = {Login} ></Route> */}
       <Route path = "/nav" exact component = {Navbar}></Route>
+      <Route path="/doctors" exact component = {Doctors}></Route>
       <Route path = "/about" exact component = {About}></Route>
-      <Route path = "/doctors" exact component = {Doctors}></Route>
     </Switch>
 
     <ToastContainer/>
