@@ -10,7 +10,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import thunk from 'redux-thunk';
 import './css/main.scss'
 //thunk umumiy qilib ulab qoyish meddleWare meddl- oraliq Ware - narsa oraliqNarsa  Actiondan reduserga chaqirilgan funksiyalarni chaqirib qoyish
- const store = createStore(rootReducer ,compose(applyMiddleware(thunk)  ,));
+ const store = createStore(rootReducer ,compose(applyMiddleware(thunk)));
   
 
 ReactDOM.render(
