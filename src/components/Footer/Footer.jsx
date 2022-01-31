@@ -13,28 +13,24 @@ const Footer =()=>{
                             <li className = "nav-item"><a className = "nav-link text-secondary" href = "tel:993332529"> Content us: 993332529 </a>  </li>
                             <li className = "nav-item d-flex w-100 justify-content-between aligin-center pt-4">
                                 <div className = " nav-icon"  >
-                                    {/* <img src = "./assets/images/png/Xumoyun.jpg"  alt="error"/> */}
-<<<<<<< HEAD
                                     <img className = "footer-icon " src="./assets/images/svg/facebook-f.svg" alt="error"></img>
-=======
                                     <img className = "footer-icon " src="./assets/images/svg/facebook-f.svg" alt="error" ></img>
->>>>>>> bc4e4f0ccb5a95348bc649ea5b581e2e36c3ffe8
+                            {/*  */}
                                 </div>
                                 <div className = " nav-icon" >
                                     <img className = "footer-icon " src="./assets/images/svg/instagram.svg" alt="error" ></img>
                                 </div>
                                 <div className = " nav-icon" >
-<<<<<<< HEAD
+
                                     <img className = "footer-icon " src="./assets/images/svg/twitter.svg" alt="error"></img>
                                 </div>
                                 <div className = " nav-icon" >
                                     <img className = "footer-icon " src="./assets/images/svg/telegram.svg"  alt="error"/>
-=======
                                     <img className = "footer-icon " src="./assets/images/svg/twitter.svg"alt="error" ></img>
                                 </div>
                                 <div className = " nav-icon" >
                                     <img className = "footer-icon " src="./assets/images/svg/telegram.svg"alt="error"  />
->>>>>>> bc4e4f0ccb5a95348bc649ea5b581e2e36c3ffe8
+
                                 </div>
                                 <span className = " nav-icon" >
                                 </span>
@@ -48,6 +44,7 @@ const Footer =()=>{
                             <li className = "nav-item"><span className = "nav-link footer-title  " >Category</span></li>
                             <li className = "nav-item"><span className = "nav-link text-secondary " >Home</span></li>
                             <li className = "nav-item"><span className = "nav-link text-secondary bold " >About</span></li>
+                  
                             <li className = "nav-item"><span className = "nav-link text-secondary bold " >Services</span></li>
                             <li className = "nav-item"><span className = "nav-link text-secondary bold " >Reviews</span></li>
                             <li className = "nav-item"><span className = "nav-link text-secondary bold " >Article</span></li>

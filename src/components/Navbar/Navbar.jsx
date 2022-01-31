@@ -15,11 +15,11 @@ const Navbar = ()=>{
                   <div className="input-navbar">
                      <input className=" form-control input-nav " placeholder="Search ..."  alt="error"/>
                      <div className="input-search-img">
-<<<<<<< HEAD
+{/* <<<<<<< HEAD */}
                         <img src = "/assets/images/svg/search2.svg" alt="error"/>
-=======
+{/* ======= */}
                         <img src = "/assets/images/svg/search2.svg" alt="error" />
->>>>>>> bc4e4f0ccb5a95348bc649ea5b581e2e36c3ffe8
+{/* >>>>>>> bc4e4f0ccb5a95348bc649ea5b581e2e36c3ffe8 */}
                      </div>
                   </div>
                 </div>
