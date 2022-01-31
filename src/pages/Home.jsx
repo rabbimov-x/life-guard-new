@@ -10,6 +10,7 @@ const Home =(props)=>{
             
             <Header/>
             <Main data = {props.biografyCard}/>
+            
             <Footer/>
             
           </div>

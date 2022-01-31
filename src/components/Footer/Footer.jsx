@@ -14,16 +14,27 @@ const Footer =()=>{
                             <li className = "nav-item d-flex w-100 justify-content-between aligin-center pt-4">
                                 <div className = " nav-icon"  >
                                     {/* <img src = "./assets/images/png/Xumoyun.jpg"  alt="error"/> */}
+<<<<<<< HEAD
                                     <img className = "footer-icon " src="./assets/images/svg/facebook-f.svg" alt="error"></img>
+=======
+                                    <img className = "footer-icon " src="./assets/images/svg/facebook-f.svg" alt="error" ></img>
+>>>>>>> bc4e4f0ccb5a95348bc649ea5b581e2e36c3ffe8
                                 </div>
                                 <div className = " nav-icon" >
                                     <img className = "footer-icon " src="./assets/images/svg/instagram.svg" alt="error" ></img>
                                 </div>
                                 <div className = " nav-icon" >
+<<<<<<< HEAD
                                     <img className = "footer-icon " src="./assets/images/svg/twitter.svg" alt="error"></img>
                                 </div>
                                 <div className = " nav-icon" >
                                     <img className = "footer-icon " src="./assets/images/svg/telegram.svg"  alt="error"/>
+=======
+                                    <img className = "footer-icon " src="./assets/images/svg/twitter.svg"alt="error" ></img>
+                                </div>
+                                <div className = " nav-icon" >
+                                    <img className = "footer-icon " src="./assets/images/svg/telegram.svg"alt="error"  />
+>>>>>>> bc4e4f0ccb5a95348bc649ea5b581e2e36c3ffe8
                                 </div>
                                 <span className = " nav-icon" >
                                 </span>

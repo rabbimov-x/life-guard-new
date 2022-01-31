@@ -14,6 +14,7 @@ const Main = (props)=>{
     className: "center",
     dots: true,
     centerMode: true,
+    autoplay: true,
     slidesToShow: 3,
     speed: 500 
       };
@@ -33,7 +34,7 @@ console.log(props)
                 <div className = "row">
                         
                     <div className = "col-4">
-                        <StepsCard/>
+                        <StepsCard img = "./assets/images/svg/phone-blue.svg"/>
                     </div>
                     
                     <div className = "col-4">

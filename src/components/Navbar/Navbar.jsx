@@ -1,9 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import "./navbar.scss"
 
 
 const Navbar = ()=>{
+   const history = useHistory();
     return(
         <div className = "container">
               <div className = "row ">
@@ -14,7 +15,11 @@ const Navbar = ()=>{
                   <div className="input-navbar">
                      <input className=" form-control input-nav " placeholder="Search ..."  alt="error"/>
                      <div className="input-search-img">
+<<<<<<< HEAD
                         <img src = "/assets/images/svg/search2.svg" alt="error"/>
+=======
+                        <img src = "/assets/images/svg/search2.svg" alt="error" />
+>>>>>>> bc4e4f0ccb5a95348bc649ea5b581e2e36c3ffe8
                      </div>
                   </div>
                 </div>
@@ -33,7 +38,7 @@ const Navbar = ()=>{
                         <Link to = "/services" className = "nav-link">Sevices</Link>
                      </li> */}
                      <li className = "nav-item" >
-                        <button  to = "/started" className = "btn">Get Started</button>
+                        <button  onClick={()=>{history.goBack();}} className = "btn">Go Back</button>
                      </li>
                    </ul>
                 </div>

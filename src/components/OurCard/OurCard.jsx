@@ -7,7 +7,7 @@ const OurCard =(props)=>{
            <div className = "card card-all">
                 <div className = "card-body our-card-body">
                         <div className = "our-image">
-                            <img src = "./assets/images/png/Xumoyun.jpg"  alt="error"/>
+                            <img src = "./assets/images/png/doktor-Stiv.png"  alt="error"/>
                         </div>
                         <div className = "our-title">
                             <h3>Cardiology</h3>
